@@ -1,5 +1,3 @@
-
-
 *,
 *::before,
 *::after {
@@ -13,8 +11,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
- 
-
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -25,9 +21,13 @@ body {
   text-align: left;
   background-color: #ffffff;
 }
- 
+
+#home {
+  background-color: pink !important;
+}
+
 a {
-  color: #0BCEAF;
+  color: #0bceaf;
   text-decoration: none;
   background-color: transparent;
 }
@@ -36,15 +36,18 @@ a:hover {
   color: #078571;
   text-decoration: underline;
 }
- 
-h1,h2,h3,h4,h5,h6,p{
-  color: #020202 !important;
-} 
 
- 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: #020202 !important;
+}
 
 /********** Template CSS ************/
-
 
 .text-stroke-header {
   -webkit-text-stroke: 3px #ffffff;
@@ -69,11 +72,7 @@ h1,h2,h3,h4,h5,h6,p{
   border-radius: 25px;
 }
 
-
-
-
 /* ================ Navigation Menu ====================*/
-
 
 .navbar-light {
   display: none;
@@ -88,7 +87,7 @@ h1,h2,h3,h4,h5,h6,p{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #0BCEAF;
+  color: #0bceaf;
 }
 
 @media (max-width: 991.98px) {
@@ -97,23 +96,20 @@ h1,h2,h3,h4,h5,h6,p{
   }
 }
 
-
 /*===================== Hero section ======================*/
 
-.about-img{
- margin-left: -100px;
- right: -60px;
+.about-img {
+  margin-left: -100px;
+  right: -60px;
 }
 
-.display-1{
+.display-1 {
   font-size: 160px;
   font-weight: 1000;
-  
 }
- 
-.position-absolute{
+
+.position-absolute {
   font-weight: 700;
-  
 }
 
 .typed-cursor {
@@ -121,27 +117,27 @@ h1,h2,h3,h4,h5,h6,p{
   color: #ffffff;
 }
 
-.blue{
+.blue {
   background-color: #1c5ce6;
   color: #ffffff;
 }
-.btn{
+.btn {
   border: 2px solid rgb(29, 105, 247);
-} 
-.btn-white{
-  background-color: #ffffff;
-  border:2px solid #ffffff;
 }
-.btn-blue{
+.btn-white {
+  background-color: #ffffff;
+  border: 2px solid #ffffff;
+}
+.btn-blue {
   border: 2.4px solid #ffffff;
   color: #ffffff;
 }
 @media (max-width: 700px) {
-  .about-img{
+  .about-img {
     margin-left: 20px;
     right: 0px;
     top: 30px;
-   }
+  }
 }
 /*===================== Progress Bar ====================*/
 
@@ -155,15 +151,13 @@ h1,h2,h3,h4,h5,h6,p{
   transition: 2s;
 }
 
-
 /* =================== Queality ======================*/
-.ex-me{
+.ex-me {
   margin-top: 35px;
 }
 
-
 /* =================== Service Section ==================*/
-.service-h4{
+.service-h4 {
   padding-bottom: 30px;
 }
 
@@ -176,19 +170,17 @@ h1,h2,h3,h4,h5,h6,p{
   border-radius: 60px;
 }
 
-.service-box{
-  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);  
+.service-box {
+  box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.1);
   margin-left: 20px;
   padding: 15px;
   padding-left: 30px;
   padding-right: 30px;
 }
-.service-box:hover{
-  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705); 
- 
+.service-box:hover {
+  box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
 }
 /* =================== Portfolio section ==================*/
-
 
 .portfolio-item .portfolio-btn {
   position: absolute;
@@ -198,7 +190,7 @@ h1,h2,h3,h4,h5,h6,p{
   left: 50%;
   border-radius: 4px;
   opacity: 0;
-  transition: .5s;
+  transition: 0.5s;
 }
 
 .portfolio-item:hover .portfolio-btn {
@@ -210,14 +202,12 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 /* ====================== Testimonial ================*/
-.testimonial-carousel .text-center{
+.testimonial-carousel .text-center {
   background-color: #eaecf0d0;
   border-radius: 20px;
   margin: 20px;
-
 }
-.testimonial-carousel .text-center h4{
-
+.testimonial-carousel .text-center h4 {
 }
 
 .testimonial-carousel .owl-dots {
@@ -235,10 +225,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .testimonial-carousel .owl-dot.active {
-  background: #0BCEAF;
+  background: #0bceaf;
 }
-
-
 
 /* ========================== Contact Us ========================*/
 
@@ -247,7 +235,6 @@ h1,h2,h3,h4,h5,h6,p{
   padding: 0;
   list-style-type: none;
 }
-
 
 /*====================== Back to buttom ==================*/
 
