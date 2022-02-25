@@ -44,14 +44,15 @@ h4,
 h5,
 h6,
 p {
-  color: #020202 !important;
+  color: #020202;
 }
 
 /********** Template CSS ************/
 
 .text-stroke-header {
-  -webkit-text-stroke: 3px #ffffff;
-  color: transparent;
+  color: #c08d8d;
+  font-size: 3px;
+  /* color: transparent; */
 }
 
 .btn {
