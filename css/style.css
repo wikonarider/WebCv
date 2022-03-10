@@ -23,17 +23,22 @@ body {
 }
 
 #home {
-  background-color: pink !important;
+  background: rgb(228, 144, 142);
+  background: linear-gradient(
+    0deg,
+    rgb(240, 160, 158) 0%,
+    rgb(245, 204, 116) 100%
+  );
 }
 
 a {
-  color: #0bceaf;
+  color: #efc89e;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #078571;
+  color: #efc89e;
   text-decoration: underline;
 }
 
@@ -42,7 +47,10 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  color: #efc89e;
+}
+
 p {
   color: #020202;
 }
@@ -50,7 +58,7 @@ p {
 /********** Template CSS ************/
 
 .text-stroke-header {
-  color: #c08d8d;
+  color: #efc89e;
   font-size: 3px;
   /* color: transparent; */
 }
@@ -119,12 +127,18 @@ p {
 }
 
 .blue {
-  background-color: #1c5ce6;
+  background-color: #efc89e;
   color: #ffffff;
 }
 .btn {
-  border: 2px solid rgb(29, 105, 247);
+  border: 2px solid #efc89e;
 }
+.btn:hover {
+  background-color: #0bceaf;
+  color: white;
+  border: transparent;
+}
+
 .btn-white {
   background-color: #ffffff;
   border: 2px solid #ffffff;
