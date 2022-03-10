@@ -135,7 +135,7 @@ p {
 }
 .btn:hover {
   background-color: #0bceaf;
-  color: white;
+  color: rgb(250, 242, 242);
   border: transparent;
 }
 
